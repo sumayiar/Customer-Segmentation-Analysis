@@ -7,7 +7,7 @@ A portfolio-ready analytics project that segments retail customers by purchasing
 - Applied clustering techniques to group customers using recency, frequency, spend, discount dependence, channel mix, and engagement patterns.
 - Identified high-value customer groups and a premium at-risk segment that represents meaningful revenue retention upside.
 - Generated business-facing insights and a retention playbook to improve lifecycle targeting, promotional strategy, and CRM prioritization.
-- Packaged the project with reproducible Python code, exported CSV outputs, and presentation-ready charts.
+- Packaged the project with reproducible Python code, exported CSV outputs, and business-ready documentation.
 
 ## Key Results
 
@@ -49,7 +49,6 @@ This generates:
 
 - Processed customer and transaction data in `data/processed/`
 - Cluster scoring outputs in `outputs/`
-- Figures for presentations and portfolio screenshots in `outputs/figures/`
 - Narrative documentation in `docs/project_story.md`
 
 ## Outputs
@@ -59,24 +58,6 @@ This generates:
 - `outputs/retention_playbook.csv`
 - `outputs/model_selection.csv`
 - `outputs/executive_summary.md`
-
-## Visuals
-
-### Model Selection
-
-![Model Selection](outputs/figures/model_selection.png)
-
-### Segment Revenue Mix
-
-![Segment Revenue Mix](outputs/figures/segment_value.png)
-
-### Retention Opportunity Matrix
-
-![Retention Opportunity Matrix](outputs/figures/retention_matrix.png)
-
-### PCA Cluster Projection
-
-![PCA Cluster Projection](outputs/figures/cluster_projection.png)
 
 ## Business Recommendations
 
@@ -96,7 +77,6 @@ This generates:
 ├── docs/
 │   └── project_story.md
 ├── outputs/
-│   ├── figures/
 │   ├── customer_segments.csv
 │   ├── executive_summary.md
 │   ├── model_selection.csv
@@ -111,9 +91,3 @@ This generates:
 └── tests/
     └── test_pipeline.py
 ```
-
-## Resume-Ready Summary
-
-- Applied clustering techniques to segment customers based on purchasing behavior.
-- Identified high-value customer groups and key retention opportunities.
-- Generated insights to improve targeting and business strategy.
